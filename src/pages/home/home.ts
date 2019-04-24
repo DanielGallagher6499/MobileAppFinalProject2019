@@ -11,4 +11,7 @@ export class HomePage {
 
   }
 
+  btnClicked(){
+    this.navCtrl.push('FirstPage');
+  }
 }
