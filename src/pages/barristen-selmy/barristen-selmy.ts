@@ -22,4 +22,8 @@ export class BarristenSelmyPage {
     console.log('ionViewDidLoad BarristenSelmyPage');
   }
 
+  openIanMc(){
+    this.navCtrl.push('IanMcPage');
+  }
+
 }

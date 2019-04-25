@@ -22,4 +22,8 @@ export class TormundGiantsbanePage {
     console.log('ionViewDidLoad TormundGiantsbanePage');
   }
 
+  openKristofer(){
+    this.navCtrl.push('KristoferHivjuPage');
+  }
+
 }

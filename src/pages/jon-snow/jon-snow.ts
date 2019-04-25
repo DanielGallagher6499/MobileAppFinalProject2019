@@ -22,4 +22,8 @@ export class JonSnowPage {
     console.log('ionViewDidLoad JonSnowPage');
   }
 
+  openKit(){
+    this.navCtrl.push('KitHarringtonPage');
+  }
+
 }

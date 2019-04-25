@@ -30,4 +30,8 @@ export class FirstPage {
     this.navCtrl.push('HousesPage');
   }
 
+  openMovies(){
+    this.navCtrl.push('MoviesPage');
+  }
+
 }

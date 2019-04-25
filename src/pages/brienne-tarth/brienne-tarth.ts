@@ -22,4 +22,9 @@ export class BrienneTarthPage {
     console.log('ionViewDidLoad BrienneTarthPage');
   }
 
+  openBrienne(){
+    this.navCtrl.push('GwenChristiePage');
+  }
+
+
 }

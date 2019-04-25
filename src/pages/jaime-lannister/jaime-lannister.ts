@@ -22,4 +22,8 @@ export class JaimeLannisterPage {
     console.log('ionViewDidLoad JaimeLannisterPage');
   }
 
+  openNikolajCoster(){
+    this.navCtrl.push('NikolajCosterPage');
+  }
+
 }

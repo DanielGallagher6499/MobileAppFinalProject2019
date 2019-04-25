@@ -22,4 +22,8 @@ export class BronnPage {
     console.log('ionViewDidLoad BronnPage');
   }
 
+  openJerome(){
+    this.navCtrl.push('JeromeFlynnPage');
+  }
+
 }
